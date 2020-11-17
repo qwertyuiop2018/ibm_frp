@@ -25,7 +25,7 @@ EOF
 clone_repo(){
     echo "进行初始化。。。"
 	  rm -rf ibm_frp
-    git clone https://github.com/hashiqi12138/ibm_frp
+    git clone https://github.com/qwertyuiop2018/ibm_frp
     cd ibm_frp
     git submodule update --init --recursive
     cd frp_app
